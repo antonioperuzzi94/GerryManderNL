@@ -23,13 +23,13 @@ For what concerns the time dimension, the horizon of the model is 100 years. In 
 
 
 ### Process Overview and Scheduling
-Every year, citizens are allowed to change idea about their voting intention with a given probability, which can be setup though the \emph{MindChange} global variable. 
+Every year, citizens are allowed to change idea about their voting intention with a given probability, which can be setup though the MindChange global variable. 
 
 Every even year, representatives elections are held. The representative of a given district is Republican if the majority within the district is Republican and vice versa for Democrats. Additionally the model keeps trace of the popular majority and of the standard deviation of votes composition between districts. The latter can be used as an index of polarization of the state.
 
 Every 10 years, the incumbent (state governor) exploits gerrymandering after that representatives elections are held. For sake of simplicity, the incumbent is the party winning the popular vote in that year. Using the switch "packing-or-cracking", the observer can decide whether to implement one of two strategies, which will be described more in detail in the next subsection.
 
-At the end of the 100-year time horizon, the global variable \emph{reversal} reports the number of reversals happened to the majority of representatives. The lowest the number of reversals the most effective the gerrymandering strategy exploited.
+At the end of the 100-year time horizon, the global variable reversal reports the number of reversals happened to the majority of representatives. The lowest the number of reversals the most effective the gerrymandering strategy exploited.
 
 ### DESIGN CONCEPTS
 
