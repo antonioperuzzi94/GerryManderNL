@@ -1,4 +1,6 @@
 # GerryManderNL
+[![DOI](https://zenodo.org/badge/309109693.svg)](https://zenodo.org/badge/latestdoi/309109693)
+
 
 ## WHAT IS IT?
 
