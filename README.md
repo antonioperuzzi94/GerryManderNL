@@ -80,7 +80,7 @@ If you mention this model or the NetLogo software in a publication, we ask that 
 
 For the model itself:
 
-* Antonio Peruzzi. (2020).  GerryMander 
+* Antonio Peruzzi. (2020).  GerryManderNL 
 
 Please cite the NetLogo software as:
 
